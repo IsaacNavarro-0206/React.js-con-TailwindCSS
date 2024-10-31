@@ -12,8 +12,6 @@ function Home() {
       .catch((error) => console.log(error));
   }, []);
 
-  console.log(items);
-
   return (
     <>
       <div className="grid gap-4 grid-cols-4 w-full max-w-screen-lg">
